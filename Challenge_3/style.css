@@ -1,0 +1,7 @@
+img {border-color: blue;
+}
+#borderimg { 
+    border-image: url(https://blog.untravel.com/wp-content/uploads/2017/11/main-11.jpg) 30 round;
+}
+body {background-color: green;}
+h1 { text-align: center;}
