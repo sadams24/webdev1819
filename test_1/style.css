@@ -1,0 +1,53 @@
+.notbold {
+    font-weight: normal;
+    font-size: 50%;
+}
+i {
+    color: red;
+}
+.main {
+    background-color:	#ADD8E6;
+    box-shadow: 10px 10px black;
+    border-radius: 5%;
+}
+section {
+    line-height: normal;
+    padding: 12px;
+}
+.primary {
+    background-color: yellow;
+}
+.noindent{
+    text-indent: -2.5em;
+}
+html {
+    font-family: helvetica;
+}
+.pink {
+    background-color: pink;
+}
+.aqua {
+    background-color: aqua;
+}
+.lemon {
+    background-color: yellow;
+}
+.grape {
+    background-color: purple;
+}
+.regular { 
+    border-color: green;
+    border-style: dotted;
+}
+.penguin {
+    border-color: green;
+    border-style: dotted;
+    background-image: url(http://goo.gl/e2x4ZK);
+    background-repeat: no-repeat;
+}
+.inline {
+    display: inline;
+}
+ol {
+    list-style-type: lower-alpha;
+}

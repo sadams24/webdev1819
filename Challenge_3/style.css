@@ -1,7 +1,39 @@
-img {border-color: blue;
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
-#borderimg { 
-    border-image: url(https://blog.untravel.com/wp-content/uploads/2017/11/main-11.jpg) 30 round;
+.row{
+    font-family: Helvetica;
+    width: 100%;
 }
-body {background-color: green;}
-h1 { text-align: center;}
+
+
+body 
+{ 
+    background-color: green;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.thumb{
+    margin:auto;
+    font-family: courier;
+    width: 375px;
+    border: 10px solid red;
+    border-radius: 30px;
+}
+
+h1{
+    font-family: cursive;
+    width: 100px;
+    margin: auto;
+}
+
+
+button{
+    font-family: monospace;
+}
