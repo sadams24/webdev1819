@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: black;
 }
 .card1{
     background-color: green;
@@ -26,6 +26,13 @@ body{
     background-color: orange;
     font-family: sans-serif;
 }
+.form-group{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    background-color: pink;
+}
 .row{
-    padding-left: 220px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
