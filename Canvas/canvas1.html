@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="canvas1.css" type="text/css">
+<body>
+
+<canvas id="myCanvas" width="600" height="800" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var canvas = document.querySelector("#myCanvas");
+var context = canvas.getContext("2d");
+var grd = context.createLinearGradient(0, 0, 600, 0);
+grd.addColorStop(0, "black");
+grd.addColorStop(1, "white");
+
+context.fillStyle=grd;
+context.fillRect(0,0,600,800);
+
+function initials(){
+context.moveTo(180, 160);
+context.quadraticCurveTo(0, 290, 200, 390);
+context.bezierCurveTo(200, 390, 240, 450, 80, 520);
+
+context.moveTo(300, 160);
+context.lineTo(240, 520);
+context.moveTo(300, 160);
+context.lineTo(360, 520);
+context.moveTo(275, 360);
+context.lineTo(325, 360);
+ 
+context.lineWidth = 30;
+context.strokeStyle = "#FFCC00";
+ 
+context.stroke();}
+
+</script> 
+
+</body>
+</html>
