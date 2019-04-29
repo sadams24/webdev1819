@@ -25,6 +25,19 @@ context.fillRect(0,0,600,800);
 // function drawS(){
     // var xPos = 0;
     // if(xPos<220){xPos += 10}
+     function render() {
+    context.onscreen.drawImage(canvas.offscreen, 0, 0); // render offscreen canvas to onscreen
+  }
+
+  function draw() {
+    context.offscreen.fillStyle = 'hsla(220,50%,50%,1)';
+    context.offscreen.fillRect(0, 0, canvas.offscreen.width, canvas.offscreen.height); // fill offscreen canvas background
+    
+    // draw objects to offscreen canvas here
+    
+    render();
+    window.requestAnimationFrame(draw);
+  }
     function drawInitials(){context.moveTo(180, 160);
     context.quadraticCurveTo(0, 290, 200, 390);
     context.bezierCurveTo(200, 390, 240, 450, 80, 520);
